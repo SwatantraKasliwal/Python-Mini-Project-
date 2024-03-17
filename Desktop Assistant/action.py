@@ -73,6 +73,8 @@ def action(data):
         weather = w.weather()
         tts.text_to_speech(f"the weather condition is {weather} ")
         return f"the weather condition is {weather} "
+    elif "what is my screen time" in user_data:
+        pass
 
 
 
